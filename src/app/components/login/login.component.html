@@ -1,0 +1,23 @@
+<div class="background">
+<div class="login-container">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title [ngStyle]="{'color':'white'}">Iniciar Sesión</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div *ngIf="!loader">
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+          <mat-form-field class="full-width">
+            <input matInput formControlName="username" placeholder="Usuario" required>
+          </mat-form-field>
+          <mat-form-field class="full-width">
+            <input matInput formControlName="password" placeholder="Contraseña" type="password" required>
+          </mat-form-field>
+          <button mat-raised-button color="primary" type="button" (click)="login()" [disabled]="loginForm.invalid">Iniciar Sesión</button>
+        </form>
+      </div>
+        <mat-spinner *ngIf="loader" ></mat-spinner>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

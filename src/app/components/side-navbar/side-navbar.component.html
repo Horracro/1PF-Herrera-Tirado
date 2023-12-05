@@ -1,0 +1,31 @@
+<mat-toolbar color="primary">
+  <button type="button" mat-button (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <div class="row">
+    <div class="col"><h1>Proyecto Final:</h1></div>
+    <div class="col">
+      <h3>Segundos en la aplicación: {{ counter }}</h3>
+    </div>
+  </div>
+  <hr />
+</mat-toolbar>
+<mat-drawer-container >
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    
+    <ul>
+      <li><button mat-button routerLink="/dashboard/home">Home</button></li>
+      <li><button mat-button routerLink="/dashboard/table">Alumnos</button></li>
+      <li><button mat-button routerLink="/dashboard/courses">Cursos</button></li>
+      <li><button mat-button routerLink="/dashboard/classes" >Clases</button></li>
+      <li><button mat-button routerLink="/dashboard/classes" >Inscripciones</button></li>
+      
+    </ul>
+    <button mat-raised-button color="primary" (click)="logout()" >Cerrar sesión</button>
+  </mat-drawer>
+
+  <div>
+
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>

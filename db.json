@@ -1,0 +1,625 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "usuario",
+      "password": "contraseña"
+    },
+    {
+      "id": 2,
+      "user": "chatbyc",
+      "password": "camila"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2,
+      "nombre": "Diego Herrera",
+      "course_id": "2",
+      "raza": "Humano",
+      "region": "Raza",
+      "principalStat": "Inteligencia"
+    },
+    {
+      "id": 3,
+      "nombre": "Viconia",
+      "course_id": "2",
+      "raza": "Elfa Drow",
+      "region": "Drow",
+      "principalStat": "Sabiduría"
+    },
+    {
+      "id": 4,
+      "nombre": "Jaheira",
+      "course_id": "3",
+      "raza": "Humano",
+      "region": "Amn",
+      "principalStat": "Sabiduría"
+    },
+    {
+      "id": 5,
+      "nombre": "Edwin",
+      "course_id": "3",
+      "raza": "Humano",
+      "region": "Thay",
+      "principalStat": "Inteligencia"
+    },
+    {
+      "id": 6,
+      "nombre": "Khalid",
+      "course_id": "3",
+      "raza": "Humano",
+      "region": "Candlekeep",
+      "principalStat": "Fuerza"
+    },
+    {
+      "id": 7,
+      "nombre": "Dynaheir",
+      "course_id": "1",
+      "raza": "Humano",
+      "region": "Rashemen",
+      "principalStat": "Inteligencia"
+    },
+    {
+      "id": 8,
+      "nombre": "Kivan",
+      "course_id": "2",
+      "raza": "Elfo",
+      "region": "Bosque de Chionthar",
+      "principalStat": "Destreza"
+    },
+    {
+      "id": 9,
+      "nombre": "Alora",
+      "course_id": "1",
+      "raza": "Gnomo",
+      "region": "Ciudad de Baldur",
+      "principalStat": "Carisma"
+    },
+    {
+      "id": 10,
+      "nombre": "Xan",
+      "course_id": "1",
+      "raza": "Humano",
+      "region": "Rashemen",
+      "principalStat": "Inteligencia"
+    },
+    {
+      "id": 11,
+      "nombre": "Baeloth",
+      "course_id": "2",
+      "raza": "Humano",
+      "region": "Zakharan",
+      "principalStat": "Carisma"
+    },
+    {
+      "id": 12,
+      "nombre": "Voghiln",
+      "course_id": "3",
+      "raza": "Humano",
+      "region": "Calimshan",
+      "principalStat": "Carisma"
+    },
+    {
+      "id": 13,
+      "nombre": "Shar-Teel",
+      "course_id": "3",
+      "raza": "Humano",
+      "region": "Ciudad de Baldur",
+      "principalStat": "Fuerza"
+    },
+    {
+      "id": 14,
+      "nombre": "Safana",
+      "course_id": "1",
+      "raza": "Humano",
+      "region": "Ciudad de Baldur",
+      "principalStat": "Destreza"
+    },
+    {
+      "id": 15,
+      "nombre": "Tiax",
+      "course_id": "2",
+      "raza": "Humano",
+      "region": "Thay",
+      "principalStat": "Carisma"
+    },
+    {
+      "id": 16,
+      "nombre": "Coran",
+      "course_id": "1",
+      "raza": "Elfo",
+      "region": "Bosque de Chionthar",
+      "principalStat": "Destreza"
+    },
+    {
+      "id": 17,
+      "nombre": "Xzar",
+      "course_id": "1",
+      "raza": "Humano",
+      "region": "Candlekeep",
+      "principalStat": "Inteligencia"
+    },
+    {
+      "id": 18,
+      "nombre": "Montaron",
+      "course_id": "1",
+      "raza": "Enano",
+      "region": "Candlekeep",
+      "principalStat": "Destreza"
+    },
+    {
+      "id": 19,
+      "nombre": "Dorn Il-Khan",
+      "course_id": "3",
+      "raza": "Mediano",
+      "region": "Rashemen",
+      "principalStat": "Fuerza"
+    },
+    {
+      "id": 20,
+      "nombre": "Branwen",
+      "course_id": "2",
+      "raza": "Humano",
+      "region": "Rashemen",
+      "principalStat": "Sabiduría"
+    },
+    {
+      "id": 21,
+      "nombre": "Xzar",
+      "course_id": "1",
+      "raza": "Humano",
+      "region": "Candlekeep",
+      "principalStat": "Inteligencia"
+    },
+    {
+      "id": 22,
+      "nombre": "Garrick",
+      "course_id": "2",
+      "raza": "Humano",
+      "region": "Nashkel",
+      "principalStat": "Carisma"
+    },
+    {
+      "id": 23,
+      "nombre": "Neera",
+      "course_id": "3",
+      "raza": "Humano",
+      "region": "Amn",
+      "principalStat": "Carisma"
+    },
+    {
+      "id": 24,
+      "nombre": "Kagain",
+      "course_id": "1",
+      "raza": "Enano",
+      "region": "Ciudad de Baldur",
+      "principalStat": "Fuerza"
+    },
+    {
+      "id": 25,
+      "nombre": "chatbyc",
+      "course_id": "2",
+      "raza": "Enano",
+      "clase": "Clérigo",
+      "region": "Baldur's Gate",
+      "principalStat": "Carisma"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "nombre": "Mago",
+      "tipo": "Mágica",
+      "descripcion": "Los magos son lanzadores de hechizos poderosos que utilizan magia para dañar a sus enemigos y controlar la realidad a su alrededor."
+    },
+    {
+      "id": 2,
+      "nombre": "Guerrero",
+      "tipo": "Física",
+      "descripcion": "Los guerreros son expertos en el combate cuerpo a cuerpo, utilizan armaduras pesadas y armas letales para enfrentar a sus enemigos."
+    },
+    {
+      "id": 3,
+      "nombre": "Pícaro",
+      "tipo": "Física",
+      "descripcion": "Los pícaros son maestros del sigilo y la astucia. Se especializan en el combate a corta distancia y en el robo de tesoros."
+    },
+    {
+      "id": 4,
+      "nombre": "Cazador",
+      "tipo": "Física a distancia",
+      "descripcion": "Los cazadores son arqueros expertos que utilizan arcos y trampas para eliminar a sus presas desde lejos."
+    },
+    {
+      "id": 5,
+      "nombre": "Sacerdote",
+      "tipo": "Mágica",
+      "descripcion": "Los sacerdotes son curanderos y lanzadores de hechizos benéficos. También pueden infligir daño divino a sus enemigos."
+    },
+    {
+      "id": 6,
+      "nombre": "Paladín",
+      "tipo": "Física/Mágica",
+      "descripcion": "Los paladines son guerreros sagrados que combinan el combate con la magia divina para proteger a sus aliados y luchar contra el mal."
+    },
+    {
+      "id": 7,
+      "nombre": "Brujo",
+      "tipo": "Mágica a distancia",
+      "descripcion": "Los brujos son maestros de las artes oscuras y utilizan la magia demoníaca para dañar a sus enemigos y controlar a los demonios."
+    },
+    {
+      "id": 8,
+      "nombre": "Caballero",
+      "tipo": "Física",
+      "descripcion": "Los caballeros son expertos en el combate con espada y escudo. Son valientes defensores de la justicia y la nobleza."
+    },
+    {
+      "id": 9,
+      "nombre": "Druida",
+      "tipo": "Mágica/Física",
+      "descripcion": "Los druidas son chamánicos y pueden transformarse en animales. Controlan la naturaleza y lanzan hechizos mágicos."
+    },
+    {
+      "id": 10,
+      "nombre": "Chamán",
+      "tipo": "Mágica/Física",
+      "descripcion": "Los chamanes son intermediarios entre el mundo espiritual y el físico. Pueden lanzar hechizos de curación y daño."
+    },
+    {
+      "id": 11,
+      "nombre": "Ladrón",
+      "tipo": "Física",
+      "descripcion": "Los ladrones son expertos en el sigilo y el robo. Pueden abrir cerraduras y desactivar trampas."
+    },
+    {
+      "id": 12,
+      "nombre": "Mago de Sangre",
+      "tipo": "Mágica",
+      "descripcion": "Los magos de sangre utilizan la magia de sangre y la energía arcana para dañar a sus enemigos y mejorar sus propias habilidades."
+    }
+  ],
+  "regions": [
+    {
+      "id": 1,
+      "nombre": "Ciudad de Baldur",
+      "clima": "Templado",
+      "plano": "Material",
+      "ubicacion": "Reinos Olvidados"
+    },
+    {
+      "id": 2,
+      "nombre": "Orgrimmar",
+      "clima": "Árido",
+      "plano": "Material",
+      "ubicacion": "Azeroth (World of Warcraft)"
+    },
+    {
+      "id": 3,
+      "nombre": "Riften",
+      "clima": "Frío",
+      "plano": "Nirn",
+      "ubicacion": "Tamriel (The Elder Scrolls)"
+    },
+    {
+      "id": 4,
+      "nombre": "Tristram",
+      "clima": "Tenebroso",
+      "plano": "Material",
+      "ubicacion": "Sanctuary (Diablo)"
+    },
+    {
+      "id": 5,
+      "nombre": "Zul'Gurub",
+      "clima": "Húmedo",
+      "plano": "Material",
+      "ubicacion": "Azeroth (World of Warcraft)"
+    },
+    {
+      "id": 6,
+      "nombre": "Anvil",
+      "clima": "Costero",
+      "plano": "Material",
+      "ubicacion": "Tamriel (The Elder Scrolls)"
+    },
+    {
+      "id": 7,
+      "nombre": "Stormwind",
+      "clima": "Templado",
+      "plano": "Material",
+      "ubicacion": "Azeroth (World of Warcraft)"
+    },
+    {
+      "id": 8,
+      "nombre": "Solstheim",
+      "clima": "Gélido",
+      "plano": "Nirn",
+      "ubicacion": "Tamriel (The Elder Scrolls)"
+    },
+    {
+      "id": 9,
+      "nombre": "Tranquilidad",
+      "clima": "Despejado",
+      "plano": "Material",
+      "ubicacion": "Reinos Olvidados"
+    },
+    {
+      "id": 10,
+      "nombre": "Nagrand",
+      "clima": "Árido",
+      "plano": "Material",
+      "ubicacion": "Azeroth (World of Warcraft)"
+    },
+    {
+      "id": 11,
+      "nombre": "Morrowind",
+      "clima": "Áspero",
+      "plano": "Nirn",
+      "ubicacion": "Tamriel (The Elder Scrolls)"
+    },
+    {
+      "id": 12,
+      "nombre": "Whiterun",
+      "clima": "Frío",
+      "plano": "Nirn",
+      "ubicacion": "Tamriel (The Elder Scrolls)"
+    },
+    {
+      "id": 13,
+      "nombre": "Ironforge",
+      "clima": "Subterráneo",
+      "plano": "Material",
+      "ubicacion": "Azeroth (World of Warcraft)"
+    },
+    {
+      "id": 14,
+      "nombre": "Calimshan",
+      "clima": "Árido",
+      "plano": "Material",
+      "ubicacion": "Reinos Olvidados"
+    },
+    {
+      "id": 15,
+      "nombre": "Eversong Woods",
+      "clima": "Boscoso",
+      "plano": "Material",
+      "ubicacion": "Azeroth (World of Warcraft)"
+    },
+    {
+      "id": 16,
+      "nombre": "Anvil",
+      "clima": "Costero",
+      "plano": "Material",
+      "ubicacion": "Tamriel (The Elder Scrolls)"
+    },
+    {
+      "id": 17,
+      "nombre": "Astranaar",
+      "clima": "Boscoso",
+      "plano": "Material",
+      "ubicacion": "Azeroth (World of Warcraft)"
+    },
+    {
+      "id": 18,
+      "nombre": "Imperial City",
+      "clima": "Templado",
+      "plano": "Nirn",
+      "ubicacion": "Tamriel (The Elder Scrolls)"
+    },
+    {
+      "id": 19,
+      "nombre": "Blackrock Mountain",
+      "clima": "Volcánico",
+      "plano": "Material",
+      "ubicacion": "Azeroth (World of Warcraft)"
+    },
+    {
+      "id": 20,
+      "nombre": "Anvil",
+      "clima": "Costero",
+      "plano": "Material",
+      "ubicacion": "Tamriel (The Elder Scrolls)"
+    }
+  ],
+  "students": [],
+  "clases": [
+    {
+      "id": 13,
+      "nombre": "Principios Fundamentales del Guerrero",
+      "curso_id": 2,
+      "descripcion": "Introducción a las habilidades fundamentales de combate. Aprende las bases esenciales para convertirte en un guerrero hábil."
+    },
+    {
+      "id": 14,
+      "nombre": "Manejo de Armas de Dos Manos",
+      "curso_id": 2,
+      "descripcion": "Domina el arte de empuñar mazas de dos manos, potenciando tu fuerza y capacidad de combate en situaciones desafiantes."
+    },
+    {
+      "id": 15,
+      "nombre": "Tácticas Avanzadas de Combate Físico",
+      "curso_id": 2,
+      "descripcion": "Perfecciona tus tácticas de combate físico, aprendiendo a anticipar movimientos y a utilizar estrategias avanzadas en la batalla."
+    },
+    {
+      "id": 16,
+      "nombre": "Defensa con Escudo",
+      "curso_id": 2,
+      "descripcion": "Especialízate en la defensa con escudo, aprendiendo a bloquear ataques y a proteger a tus compañeros de equipo en el campo de batalla."
+    },
+    {
+      "id": 17,
+      "nombre": "Combate en Formación",
+      "curso_id": 2,
+      "descripcion": "Descubre las ventajas del combate en formación. Aprende a trabajar en equipo para superar desafíos y derrotar a enemigos más poderosos."
+    },
+    {
+      "id": 18,
+      "nombre": "Dominio de la Mazmorra",
+      "curso_id": 2,
+      "descripcion": "Explora técnicas y estrategias específicas para enfrentar desafíos en mazmorras. Aprende a adaptarte a entornos cerrados y peligrosos."
+    },
+    {
+      "id": 19,
+      "nombre": "Combate contra Criaturas Místicas",
+      "curso_id": 2,
+      "descripcion": "Adquiere habilidades específicas para enfrentar criaturas místicas y sobrenaturales. Descubre debilidades y estrategias efectivas de combate."
+    },
+    {
+      "id": 20,
+      "nombre": "Dualidad de Armas",
+      "curso_id": 2,
+      "descripcion": "Domina el arte de manejar dos armas simultáneamente. Aprende a equilibrar ataque y defensa para convertirte en un guerrero versátil."
+    },
+    {
+      "id": 21,
+      "nombre": "Estrategias de Batalla a Gran Escala",
+      "curso_id": 2,
+      "descripcion": "Aprende tácticas y estrategias avanzadas para batallas a gran escala. Conviértete en un líder eficiente en situaciones de guerra masiva."
+    },
+    {
+      "id": 22,
+      "nombre": "Desafío del Guerrero Maestro",
+      "curso_id": 2,
+      "descripcion": "Enfrenta desafíos épicos que pondrán a prueba todas tus habilidades adquiridas. Supera este desafío para obtener el título de Guerrero Maestro."
+    },
+    {
+      "id": 23,
+      "nombre": "Principios Básicos de la Magia",
+      "curso_id": 1,
+      "descripcion": "Introducción a los principios fundamentales de la magia. Aprende las bases esenciales para convertirte en un mago poderoso."
+    },
+    {
+      "id": 24,
+      "nombre": "Hechizos Elementales",
+      "curso_id": 1,
+      "descripcion": "Explora los hechizos elementales y aprende a manipular los elementos a tu favor. Domina el control sobre el fuego, el agua, la tierra y el aire."
+    },
+    {
+      "id": 25,
+      "nombre": "Ilusionismo Avanzado",
+      "curso_id": 1,
+      "descripcion": "Aprende las complejidades del ilusionismo, la magia de engaño. Desarrolla la habilidad de crear ilusiones convincentes y desorientar a tus enemigos."
+    },
+    {
+      "id": 26,
+      "nombre": "Telequinesis y Control Mental",
+      "curso_id": 1,
+      "descripcion": "Domina el arte de la telequinesis para mover objetos con la mente y aprende a ejercer control mental sobre tus oponentes."
+    },
+    {
+      "id": 27,
+      "nombre": "Invocación de Criaturas Arcanas",
+      "curso_id": 1,
+      "descripcion": "Descubre la invocación de criaturas místicas y aprende a convocar aliados mágicos para que te ayuden en la batalla."
+    },
+    {
+      "id": 28,
+      "nombre": "Alquimia Arcana",
+      "curso_id": 1,
+      "descripcion": "Sumérgete en el estudio de la alquimia arcana. Aprende a crear pociones y elixires mágicos con propiedades únicas."
+    },
+    {
+      "id": 29,
+      "nombre": "Manipulación del Tiempo",
+      "curso_id": 1,
+      "descripcion": "Explora el control del tiempo y aprende a manipularlo a tu favor. Domina técnicas para ralentizar, acelerar o detener el tiempo."
+    },
+    {
+      "id": 30,
+      "nombre": "Magia Rúnica",
+      "curso_id": 1,
+      "descripcion": "Sumérgete en el arte de la magia rúnica. Aprende a inscribir y utilizar runas mágicas para potenciar tus hechizos y encantamientos."
+    },
+    {
+      "id": 31,
+      "nombre": "Nigromancia Elemental",
+      "curso_id": 1,
+      "descripcion": "Explora la nigromancia elemental y aprende a controlar y manipular las fuerzas de la vida y la muerte para tus propios propósitos."
+    },
+    {
+      "id": 32,
+      "nombre": "Desafío del Mago Supremo",
+      "curso_id": 1,
+      "descripcion": "Enfrenta desafíos mágicos épicos que pondrán a prueba todas tus habilidades adquiridas. Supera este desafío para obtener el título de Mago Supremo."
+    },
+    {
+      "id": 33,
+      "nombre": "Fundamentos del Sigilo",
+      "curso_id": 3,
+      "descripcion": "Introducción a las técnicas básicas de sigilo. Aprende a moverte sin ser detectado y a aprovechar la sorpresa en el combate."
+    },
+    {
+      "id": 34,
+      "nombre": "Arte del Robo",
+      "curso_id": 3,
+      "descripcion": "Domina las habilidades necesarias para el robo y el hurto. Aprende a despojar a tus oponentes y a desactivar trampas hábilmente."
+    },
+    {
+      "id": 35,
+      "nombre": "Combate a Corta Distancia",
+      "curso_id": 3,
+      "descripcion": "Perfecciona tus habilidades en el combate a corta distancia. Aprende a utilizar dagas y armas ligeras para enfrentar a tus enemigos de manera eficaz."
+    },
+    {
+      "id": 36,
+      "nombre": "Infiltración Avanzada",
+      "curso_id": 3,
+      "descripcion": "Explora técnicas de infiltración avanzada. Aprende a acceder a lugares seguros y a obtener información sin ser detectado."
+    },
+    {
+      "id": 37,
+      "nombre": "Trampas y Dispositivos",
+      "curso_id": 3,
+      "descripcion": "Conviértete en un experto en el uso de trampas y dispositivos. Aprende a colocar y desactivar trampas para controlar tu entorno."
+    },
+    {
+      "id": 38,
+      "nombre": "Negociación y Engaño",
+      "curso_id": 3,
+      "descripcion": "Desarrolla habilidades sociales para la negociación y el engaño. Aprende a persuadir, sobornar y manipular situaciones a tu favor."
+    },
+    {
+      "id": 39,
+      "nombre": "Arsenal del Pícaro",
+      "curso_id": 3,
+      "descripcion": "Explora el arsenal de un pícaro. Aprende a elegir y utilizar las armas y herramientas adecuadas para cada situación."
+    },
+    {
+      "id": 40,
+      "nombre": "Sigilo Mágico",
+      "curso_id": 3,
+      "descripcion": "Combina el sigilo con habilidades mágicas. Aprende a utilizar ilusiones y encantamientos para mejorar tu sigilo y engañar a tus adversarios."
+    },
+    {
+      "id": 41,
+      "nombre": "Desafío del Pícaro Maestro",
+      "curso_id": 3,
+      "descripcion": "Enfrenta desafíos diseñados para poner a prueba todas las habilidades adquiridas. Supera este desafío para obtener el título de Pícaro Maestro."
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "nombre": "Curso de Mago",
+      "fecha_inicio": "2023-01-15",
+      "fecha_fin": "2023-03-30",
+      "descripcion": "Explora las artes místicas y aprende a controlar y manipular la magia en todas sus formas. Desde hechizos elementales hasta ilusionismo avanzado, este curso te llevará a la maestría mágica."
+    },
+    {
+      "id": 2,
+      "nombre": "Curso de Guerrero",
+      "fecha_inicio": "2023-02-01",
+      "fecha_fin": "2023-04-15",
+      "descripcion": "Domina las artes del combate físico y conviértete en un guerrero habilidoso. Desde los principios fundamentales hasta estrategias avanzadas de batalla, este curso te preparará para enfrentar cualquier desafío."
+    },
+    {
+      "id": 3,
+      "nombre": "Curso de Pícaro",
+      "fecha_inicio": "2023-03-10",
+      "fecha_fin": "2023-05-25",
+      "descripcion": "Sumérgete en el mundo de la astucia y el sigilo. Aprende las habilidades del pícaro, desde el robo de tesoros hasta las artes del combate a corta distancia. Este curso es perfecto para aquellos que prefieren la sutileza y la destreza en sus aventuras."
+    }
+  ]
+}
