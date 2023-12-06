@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { interval, Observable, of } from 'rxjs';
+import { environment } from 'src/environments/environment.development';
 
 export interface Character{
   id:number,
@@ -19,17 +20,17 @@ getSeconds():Observable<number>{
   return interval(1000)
 
 }
-  getCharacters():Observable<Object>{
-   return this.http.get("http://localhost:3000/characters")
+  getCharacters():Observable<Character []>{
+   return this.http.get<Character []>(environment.API+"characters")
   }
   deleteCharacter(id: number): Observable<Object> {
-    return this.http.delete("http://localhost:3000/characters/"+id)
+    return this.http.delete(environment.API+"characters/"+id)
   }
   addCharacter(character:Character){
-    return this.http.post("http://localhost:3000/characters/",character)
+    return this.http.post(environment.API+"characters/",character)
   }
   updateCharacter(character:Character, id:number){
-    return this.http.patch("http://localhost:3000/characters/"+id,character)
+    return this.http.patch(environment.API+"characters/"+id,character)
   }
 
   getNotifications():Observable<any>{

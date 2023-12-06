@@ -3,12 +3,16 @@
     {
       "id": 1,
       "user": "usuario",
-      "password": "contraseña"
+      "password": "contraseña",
+      "token":"alahuakbar",
+      "rol":"master"
     },
     {
       "id": 2,
       "user": "chatbyc",
-      "password": "camila"
+      "password": "camila",
+      "token":"chinhenhanhi",
+      "rol":"common"
     }
   ],
   "characters": [
@@ -197,13 +201,28 @@
       "principalStat": "Fuerza"
     },
     {
-      "id": 25,
-      "nombre": "chatbyc",
-      "course_id": "2",
+      "nombre": "213",
+      "raza": "Elfo",
+      "course_id": "1",
+      "region": "123123",
+      "principalStat": "Destreza",
+      "id": 25
+    },
+    {
+      "nombre": "213",
+      "raza": "Elfo",
+      "course_id": "3",
+      "region": "123",
+      "principalStat": "Destreza",
+      "id": 26
+    },
+    {
+      "nombre": "aaaaaaa",
       "raza": "Enano",
-      "clase": "Clérigo",
-      "region": "Baldur's Gate",
-      "principalStat": "Carisma"
+      "course_id": "1",
+      "region": "asfasf",
+      "principalStat": "Sabiduría",
+      "id": 27
     }
   ],
   "classes": [
