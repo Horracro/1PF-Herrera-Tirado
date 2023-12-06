@@ -2,16 +2,17 @@
   <button type="button" mat-button (click)="drawer.toggle()">
     <mat-icon>menu</mat-icon>
   </button>
-  <div class="row">
+  <div class="row col-8">
     <div class="col"><h1>Proyecto Final:</h1></div>
     <div class="col">
       <h3>Segundos en la aplicación: {{ counter }}</h3>
     </div>
   </div>
+  <div class="text-end">  <h1>{{name}}</h1></div>
   <hr />
 </mat-toolbar>
 <mat-drawer-container >
-  <h1>{{name}}</h1>
+
   <mat-drawer #drawer class="example-sidenav" mode="side">
     
     <ul>
@@ -19,7 +20,7 @@
       <li><button mat-button routerLink="/dashboard/table">Alumnos</button></li>
       <li><button mat-button routerLink="/dashboard/courses">Cursos</button></li>
       <li><button mat-button routerLink="/dashboard/classes" >Clases</button></li>
-      <li><button mat-button routerLink="/dashboard/classes" >Inscripciones</button></li>
+      <li><button mat-button routerLink="/dashboard/enrollments" >Inscripciones</button></li>
       
     </ul>
     <button mat-raised-button color="primary" (click)="logout()" >Cerrar sesión</button>

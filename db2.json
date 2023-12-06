@@ -1,0 +1,111 @@
+{"characters": [
+    {
+      "id": 1,
+      "nombre": "Diego Herrera",
+    
+      "raza": "Humano",
+      "region": "Raza",
+      "principalStat": "Inteligencia"
+    },
+    {
+      "id": 2,
+      "nombre": "Viconia",
+   
+      "raza": "Elfa Drow",
+      "region": "Drow",
+      "principalStat": "Sabiduría"
+    },
+    {
+      "id": 3,
+      "nombre": "Jaheira",
+      "raza": "Humano",
+      "region": "Amn",
+      "principalStat": "Sabiduría"
+    },
+    {
+      "id": 4,
+      "nombre": "Edwin",
+    
+      "raza": "Humano",
+      "region": "Thay",
+      "principalStat": "Inteligencia"
+    },
+    {
+      "id": 5,
+      "nombre": "Khalid",
+      
+      "raza": "Humano",
+      "region": "Candlekeep",
+      "principalStat": "Fuerza"
+    },
+    {
+      "id": 6,
+      "nombre": "Dynaheir",
+    
+      "raza": "Humano",
+      "region": "Rashemen",
+      "principalStat": "Inteligencia"
+    },
+    {
+      "id": 7,
+      "nombre": "Kivan",
+     
+      "raza": "Elfo",
+      "region": "Bosque de Chionthar",
+      "principalStat": "Destreza"
+    },
+    {
+      "id":8,
+      "nombre": "Alora",
+   
+      "raza": "Gnomo",
+      "region": "Ciudad de Baldur",
+      "principalStat": "Carisma"
+    },
+    {
+      "id": 9,
+      "nombre": "Xan",
+     
+      "raza": "Humano",
+      "region": "Rashemen",
+      "principalStat": "Inteligencia"
+    },
+    {
+      "id": 10,
+      "nombre": "Baeloth",
+   
+      "raza": "Humano",
+      "region": "Zakharan",
+      "principalStat": "Carisma"
+    }  ],
+  "courses": [
+    {
+      "id": 1,
+      "nombre": "Curso de Mago",
+      "fecha_inicio": "2023-01-15",
+      "fecha_fin": "2023-03-30",
+      "descripcion": "Explora las artes místicas y aprende a controlar y manipular la magia en todas sus formas. Desde hechizos elementales hasta ilusionismo avanzado, este curso te llevará a la maestría mágica."
+    },
+    {
+      "id": 2,
+      "nombre": "Curso de Guerrero",
+      "fecha_inicio": "2023-02-01",
+      "fecha_fin": "2023-04-15",
+      "descripcion": "Domina las artes del combate físico y conviértete en un guerrero habilidoso. Desde los principios fundamentales hasta estrategias avanzadas de batalla, este curso te preparará para enfrentar cualquier desafío."
+    },
+    {
+      "id": 3,
+      "nombre": "Curso de Pícaro",
+      "fecha_inicio": "2023-03-10",
+      "fecha_fin": "2023-05-25",
+      "descripcion": "Sumérgete en el mundo de la astucia y el sigilo. Aprende las habilidades del pícaro, desde el robo de tesoros hasta las artes del combate a corta distancia. Este curso es perfecto para aquellos que prefieren la sutileza y la destreza en sus aventuras."
+    }
+  ],
+  "enrollments":[
+    {"id": 1, "characterId": 1, "courseId": 1},
+    {"id": 2, "characterId": 2, "courseId": 1},
+    {"id": 3, "characterId": 3, "courseId": 1}
+
+  ]
+  
+}

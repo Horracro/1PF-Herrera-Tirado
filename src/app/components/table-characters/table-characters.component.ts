@@ -5,7 +5,6 @@ import {
   Input,
   Output,
   SimpleChanges,
-  OnInit,
 } from '@angular/core';
 
 import { AlertServiceService } from 'src/app/services/alert-service.service';

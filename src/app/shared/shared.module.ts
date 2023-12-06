@@ -32,7 +32,7 @@ import { TableCharactersModule } from '../components/table-characters/table-char
     MatIconModule,
     MatTableModule,
     MatProgressSpinnerModule,
-    TableCharactersModule,
+   
     MatDialogModule,
     
     ReactiveFormsModule,
@@ -55,7 +55,7 @@ import { TableCharactersModule } from '../components/table-characters/table-char
     MatFormFieldModule,
     MatInputModule,
     MatCardModule,
-    TableCharactersModule,
+    
     
   ],
 })
