@@ -10,13 +10,16 @@ import { EnrollmentsComponent } from './enrollments.component';
 import { EnrollmentsTableComponent } from './components/enrollments-table/enrollments-table.component';
 import {  MatToolbarModule } from '@angular/material/toolbar';
 import { MatTableModule } from '@angular/material/table';
-import { NamePipe } from 'src/app/utils/pipes/name.pipe';
+
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
   declarations: [EnrollmentsComponent,EnrollmentsTableComponent],
   imports: [
-  
+    MatIconModule,
+    MatButtonModule,
     MatTableModule,
     MatToolbarModule,
     CommonModule,

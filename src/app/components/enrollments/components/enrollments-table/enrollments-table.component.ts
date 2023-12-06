@@ -8,6 +8,7 @@ import {
 } from '../../store/enrollment.selectors';
 import { MatDialog } from '@angular/material/dialog';
 import { LoaderComponent } from 'src/app/components/loader/loader.component';
+import { ModalFormComponent } from 'src/app/components/modal-form/modal-form.component';
 
 @Component({
   selector: 'app-enrollments-table',
@@ -40,4 +41,12 @@ export class EnrollmentsTableComponent implements OnInit {
   closeLoader() {
     this.dialog.closeAll();
   }
+
+  editCharacter(character: any): void {
+    const dialogRef = this.dialog.open(ModalFormComponent, {
+      width: '800px',
+      disableClose: true,
+      data: { action: 2, character: character },
+    });
+}
 }

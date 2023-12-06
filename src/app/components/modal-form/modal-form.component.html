@@ -1,6 +1,7 @@
 <mat-toolbar color="primary">
   <h1 *ngIf="data.action == 0">Crear personaje</h1>
-  <h1 *ngIf="data.action != 0">Editar personaje</h1>
+  <h1 *ngIf="data.action == 1">Editar personaje</h1>
+  <h1 *ngIf="data.action == 2">Ver personaje</h1>
 </mat-toolbar>
 <mat-card class="example-card">
   <form [formGroup]="characterForm" (ngSubmit)="onSubmit()">
@@ -9,14 +10,14 @@
         <div class="col-4 px-2">
           <mat-form-field>
             <mat-label>Nombre</mat-label>
-            <input matInput formControlName="nombre" placeholder="Nombre" />
+            <input [disabled]="data.action == 2" [readonly]="data.action == 2" matInput formControlName="nombre" placeholder="Nombre" />
             <mat-error *ngIf="characterForm?.get('nombre')?.hasError('required')">El nombre es obligatorio.</mat-error>
           </mat-form-field>
         </div>
         <div class="col-4">
           <mat-form-field>
             <mat-label>Raza</mat-label>
-            <mat-select formControlName="raza">
+            <mat-select *ngIf="data.action!=2" formControlName="raza">
               <mat-option value="Humano">Humano</mat-option>
               <mat-option value="Elfo">Elfo</mat-option>
               <mat-option value="Enano">Enano</mat-option>
@@ -28,6 +29,8 @@
               <mat-option value="Aarakocra">Aarakocra</mat-option>
               <mat-option value="Genasi">Genasi</mat-option>
             </mat-select>
+
+            <input  *ngIf="data.action==2" [readonly]="true" matInput formControlName="raza" placeholder="raza" />
             <mat-error *ngIf="characterForm?.get('raza')?.hasError('required')">La raza es obligatoria.</mat-error>
           </mat-form-field>
         </div>
@@ -40,6 +43,7 @@
               <mat-option value="2">Mago</mat-option>
             </mat-select>
             <mat-error *ngIf="characterForm?.get('course_id')?.hasError('required')">El curso es obligatorio.</mat-error>
+            
           </mat-form-field>
         </div>
       </div>
@@ -47,14 +51,14 @@
         <div class="col-4">
       <mat-form-field>
         <mat-label>Región o zona</mat-label>
-        <input matInput formControlName="region" placeholder="Región" />
-        <mat-error *ngIf="characterForm?.get('region')?.hasError('required')">La región es obligatoria.</mat-error>
+        <input [readonly]="data.action==2" matInput formControlName="region" placeholder="Región" />
+        <mat-error  *ngIf="characterForm?.get('region')?.hasError('required')">La región es obligatoria.</mat-error>
       </mat-form-field>
     </div>
     <div class="col-4">
       <mat-form-field>
         <mat-label>Estadística Principal</mat-label>
-        <mat-select formControlName="principalStat">
+        <mat-select *ngIf="data.action!=2" formControlName="principalStat">
           <mat-option value="Fuerza">Fuerza</mat-option>
           <mat-option value="Destreza">Destreza</mat-option>
           <mat-option value="Constitución">Constitución</mat-option>
@@ -62,11 +66,12 @@
           <mat-option value="Sabiduría">Sabiduría</mat-option>
           <mat-option value="Carisma">Carisma</mat-option>
         </mat-select>
+        <input  *ngIf="data.action==2" [readonly]="true" matInput formControlName="principalStat" placeholder="Estadística Principal" />
         <mat-error *ngIf="characterForm?.get('principalStat')?.hasError('required')">La estadística principal es obligatoria.</mat-error>
       </mat-form-field>
     </div>
     <div class="col-4 my-3">
-      <button mat-raised-button type="submit">Guardar</button>
+      <button mat-raised-button [disabled]="data.action==2" type="submit">Guardar</button>
       <button mat-raised-button type="button" class="mx-2" color="primary" (click)="closeModal()">Cancelar</button>
     </div>
     </div>

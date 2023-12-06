@@ -11,10 +11,7 @@ export class ModalFormComponent  implements OnInit {
   characterForm!: FormGroup;
   loader:boolean = false
   constructor(private fb: FormBuilder,private dialogRef: MatDialogRef<ModalFormComponent>, @Inject(MAT_DIALOG_DATA) public data: any) {
-    console.log(data)
-
   }
-
   ngOnInit() {
   
     if (this.data && this.data.character && this.data.character.nombre) {
