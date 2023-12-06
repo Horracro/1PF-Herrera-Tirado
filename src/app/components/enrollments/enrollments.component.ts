@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { EnrollmentActions } from './store/enrollment.actions';
 
 @Component({
   selector: 'app-enrollments',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './enrollments.component.scss'
 })
 export class EnrollmentsComponent {
-
+constructor(private store:Store){
+this.store.dispatch(EnrollmentActions.loadEnrollments())
+}
 }
